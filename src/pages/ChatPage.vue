@@ -18,7 +18,7 @@ import ChatList from "@/components/Chat/ChatList.vue";
 import ChatForm from "@/components/Chat/ChatForm.vue";
 import { ChatModel, Message, RTCIceCandidateEvent } from "@/types";
 
-const socket = io("ws://webrtc-chat-app-server.herokuapp.com");
+const socket = io("https://webrtc-chat-app-server.herokuapp.com");
 
 /*global RTCConfiguration */
 const configuration: RTCConfiguration = {
